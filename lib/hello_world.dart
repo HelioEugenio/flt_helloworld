@@ -7,6 +7,7 @@ class MyHelloWorld extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'MPrime TimeWork',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -25,8 +26,6 @@ class HomePage extends StatelessWidget {
         title: const Text('Hello World'),
       ),
       body: Container(
-        width: 200,
-        height: 200,
         alignment: Alignment.center,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

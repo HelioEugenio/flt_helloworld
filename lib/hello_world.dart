@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: const [
             Text(
-              'void main() {\n print(\'Hello World!\');\n}',
+              'void main() {\n    print(\'Hello World!\');\n}',
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
